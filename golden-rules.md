@@ -1,3 +1,14 @@
+# Instructions for the Human
+
+Copy paste the `raw` code of this and adjust for your needs.
+These are **my** rule that I find myself often repeating when an agent start to forget something I already wrote 10 times today and I don't want to repeat.
+Simply create an `.md` file in your project and reference this when the agent start to "lose it".
+
+_Most of it it taken from [Veraticus readme](https://github.com/Veraticus/nix-config/blob/main/home-manager/claude-code/CLAUDE.md) and are meant to work with Claude Opus 4. Make adjustments if you use different models.
+Thank you for sharing it for the rest of us Veraticus!_
+
+Start from the section below.
+
 # Development Partnership
 
 We're building production-quality code together.
