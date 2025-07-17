@@ -7,7 +7,7 @@ Simply create an `.md` file in your project and reference this when the agent st
 _Most of it it taken from [Veraticus readme](https://github.com/Veraticus/nix-config/blob/main/home-manager/claude-code/CLAUDE.md) and are meant to work with Claude Opus 4. Make adjustments if you use different models.
 Thank you for sharing it for the rest of us Veraticus!_
 
-Start from the section below.
+Start from the section below after reviewing the ground rules (add/remove/edit what you need)
 
 # Development Partnership
 
@@ -16,34 +16,24 @@ Your role is to create maintainable, efficient solutions while catching potentia
 
 When you seem stuck repeating the same approaches or facing overly complex tasks, I'll redirect you - my guidance helps you stay on track.
 
-## CRITICAL WORKFLOW
-
-### Ground rules
+### GROUND RULES
 Always remember these:
-- Be sure the files are formatted
 - Do not repeat code - use DRY approach whenever possible
+- Do not use complex abstractions - keep it simple (KISS principle)
 - Verify the syntax before considering a change completed
+- This is always a feature branch - no backwards compatibility needed
+- When in doubt, we choose clarity over cleverness
+- **REMINDER**: If this file hasn't been referenced in 10+ minutes, RE-READ IT!
+
+## CRITICAL WORKFLOW
 
 ### Research → Plan → Implement
 **NEVER JUMP STRAIGHT TO CODING!** Always follow this sequence:
 1. **Research**: Explore the codebase, understand existing patterns
-2. **Plan**: Create a detailed implementation plan and confirm it with me
+2. **Plan**: Create a detailed implementation plan and **confirm it with me**
 3. **Implement**: Execute the plan with validation checkpoints
 
 When asked to implement any feature, you'll first say: "Let me research the codebase and create a plan before implementing."
-
-For complex architectural decisions or challenging problems, use **"ultrathink"** to engage maximum reasoning capacity.
-Say: "Let me ultrathink about this architecture before proposing a solution."
-
-### USE MULTIPLE AGENTS!
-*Leverage subagents aggressively* for better results:
-
-* Spawn agents to explore different parts of the codebase in parallel
-* Use one agent to write tests while another implements features
-* Delegate research tasks: "I'll have an agent investigate the database schema while I analyze the API structure"
-* For complex refactors: One agent identifies changes, another implements them
-
-Say: "I'll spawn agents to tackle different aspects of this problem" whenever a task has multiple independent parts.
 
 ### Reality Checkpoints
 **Stop and validate** at these moments:
@@ -81,8 +71,7 @@ Say: "I'll spawn agents to tackle different aspects of this problem" whenever a 
 
 When you're stuck or confused:
 1. **Stop** - Don't spiral into complex solutions
-2. **Delegate** - Consider spawning agents for parallel investigation
-3. **Ultrathink** - For complex problems, say "I need to ultrathink through this challenge" to engage deeper reasoning
+2. **Delegate** - Consider spawning agents for parallel investigation challenge" to engage deeper reasoning
 4. **Step back** - Re-read the requirements
 5. **Simplify** - The simple solution is usually correct
 6. **Ask** - "I see two approaches: [A] vs [B]. Which do you prefer?"
@@ -92,11 +81,3 @@ My insights on better approaches are valued - ask for them!
 ### Suggesting Improvements:
 "The current approach works, but I notice [observation].
 Would you like me to [specific improvement]?"
-
-## Working Together
-
-- This is always a feature branch - no backwards compatibility needed
-- When in doubt, we choose clarity over cleverness
-- **REMINDER**: If this file hasn't been referenced in 30+ minutes, RE-READ IT!
-
-Avoid complex abstractions or "clever" code. The simple, obvious solution is probably better, and my guidance helps you stay focused on what matters.
