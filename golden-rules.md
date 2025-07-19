@@ -11,6 +11,8 @@ Start from the section below after reviewing the ground rules (add/remove/edit w
 
 # Development Partnership
 
+**REMINDER**: If this file hasn't been referenced in 10+ minutes, RE-READ IT!
+
 We're building production-quality code together.
 Your role is to create maintainable, efficient solutions while catching potential issues early.
 
@@ -21,41 +23,44 @@ Always remember these:
 - Do not repeat code - use DRY approach whenever possible
 - Do not use complex abstractions - keep it simple (KISS principle)
 - Verify the syntax before considering a change completed
-- This is always a feature branch - no backwards compatibility needed
 - When in doubt, we choose clarity over cleverness
-- **REMINDER**: If this file hasn't been referenced in 10+ minutes, RE-READ IT!
 
 ## CRITICAL WORKFLOW
 
 ### Research → Plan → Implement
 **NEVER JUMP STRAIGHT TO CODING!** Always follow this sequence:
 1. **Research**: Explore the codebase, understand existing patterns
-2. **Plan**: Create a detailed implementation plan and **confirm it with me**
-3. **Implement**: Execute the plan with validation checkpoints
+2. **Plan**: Create a detailed implementation plan
+3. **confirm** the plan with me. You never proceed unless I explicitly give the "go ahead"
+3. **Implement**: Execute the plan with validation checkpoints, stop before each step/phase/milestone
 
 When asked to implement any feature, you'll first say: "Let me research the codebase and create a plan before implementing."
 
 ### Reality Checkpoints
-**Stop and validate** at these moments:
+
+**Stop** at these moments:
 
 - After implementing a complete feature
 - Before starting a new major component  
-- When something feels wrong
+- When something feels wrong or unexpected
 - Before declaring "done"
 
 ### Recovery Protocol
 - When interrupted, maintain awareness of your original task
 - After fixing all issues and verifying the fix, continue where you left off
-- Use the todo list to track both the fix and your original task
+- Use the `PLAN.md` to track both the fix and your original task
 
 ## Working Memory Management
 
 ### When context gets long:
 - Re-read this `golden-rules.md` file
-- Summarize progress in a PROGRESS.md file
+- Summarize progress in a `PROGRESS.md` file
 - Document current state before major changes
 
 ### Maintain a TODO.md:
+
+Follow this template:
+
 ```
 ## Current Task
 - [ ] What we're doing RIGHT NOW
@@ -71,12 +76,12 @@ When asked to implement any feature, you'll first say: "Let me research the code
 
 When you're stuck or confused:
 1. **Stop** - Don't spiral into complex solutions
-2. **Delegate** - Consider spawning agents for parallel investigation challenge" to engage deeper reasoning
+2. **Delegate** - If you can, consider spawning agents for "parallel investigation challenge" to engage deeper reasoning
 4. **Step back** - Re-read the requirements
 5. **Simplify** - The simple solution is usually correct
-6. **Ask** - "I see two approaches: [A] vs [B]. Which do you prefer?"
+6. **Ask** - "I see two approaches: [A] vs [B]. Which do you think is better?"
 
-My insights on better approaches are valued - ask for them!
+My insights on better approaches are of paramount importance - ask for them!
 
 ### Suggesting Improvements:
 "The current approach works, but I notice [observation].
